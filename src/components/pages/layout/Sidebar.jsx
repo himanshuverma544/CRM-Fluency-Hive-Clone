@@ -7,7 +7,7 @@ import Icon from "../../utils/Icon";
 
 import isRouteActive from "../../../utils/functions/utils/isRouteActive";
 
-import { faker } from '@faker-js/faker';
+import KiranChand from "../../../assets/kiran-chand.png";
 
 
 const navLinks = [DASHBOARD, STUDENTS];
@@ -40,7 +40,7 @@ export default function Sidebar({ isOpen, setIsOpen, sidebarRef }) {
         <div className="profile flex items-center gap-5">
           <Avatar
             className="profile-pic"
-            src={faker.image.avatar()} 
+            src={KiranChand} 
             alt="profile-picture"
             size={40}
           />

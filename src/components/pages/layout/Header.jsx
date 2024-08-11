@@ -6,7 +6,7 @@ import FluencyHiveLogo from "../../../assets/fluency-hive-logo.webp";
 
 import { DASHBOARD } from "../../../../routes";
 
-import { faker } from '@faker-js/faker';
+import KiranChand from "../../../assets/kiran-chand.png";
 
 
 export default function Header({ isOpen, setIsOpen }) {
@@ -50,7 +50,7 @@ export default function Header({ isOpen, setIsOpen }) {
 
       <Avatar
         className="profile-pic"
-        src={faker.image.url()} 
+        src={KiranChand} 
         alt="profile-picture"
         size={40}
         component="button"
