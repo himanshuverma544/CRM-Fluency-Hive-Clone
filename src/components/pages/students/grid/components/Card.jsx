@@ -6,15 +6,13 @@ import { GiProgression } from "react-icons/gi";
 import { RiMoneyRupeeCircleLine } from "react-icons/ri";
 import { MdAirlineSeatReclineNormal } from "react-icons/md";
 
-import { faker } from '@faker-js/faker';
-
 
 export default function Card({ student }) {
   
   return (
     <div className="student-card w-[95%] flex flex-col items-center justify-center p-10 gap-3 rounded-lg bg-primaryLight sm:w-[17rem]">
 
-      <Avatar className="profile-picture" size={200} src={faker.image.url()} alt={student.name}/>
+      <Avatar className="profile-picture" size={200} src={student.avatar} alt={student.name}/>
 
       <div className="name text-xl font-semibold">
         {student.name}

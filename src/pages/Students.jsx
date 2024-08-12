@@ -7,6 +7,7 @@ import Grid from "../components/pages/students/grid/Grid";
 import Divider from "../components/utils/Divider";
 import Spacer from "../components/utils/Spacer";
 
+
 const studentsData = [
   {
     id: 1,
@@ -19,8 +20,8 @@ const studentsData = [
   },
   {
     id: 2,
-    avatar: "https://randomuser.me/api/portraits/men/2.jpg",
-    name: "Michael Smith",
+    avatar: "https://randomuser.me/api/portraits/women/2.jpg",
+    name: "Emily Smith",
     courseCompletion: 80,
     feeStatus: "pending",
     courseDuration: "1 Year",
@@ -37,8 +38,8 @@ const studentsData = [
   },
   {
     id: 4,
-    avatar: "https://randomuser.me/api/portraits/men/4.jpg",
-    name: "Robert Brown",
+    avatar: "https://randomuser.me/api/portraits/women/4.jpg",
+    name: "Sarah Brown",
     courseCompletion: 60,
     feeStatus: "pending",
     courseDuration: "2 Years",
@@ -55,8 +56,8 @@ const studentsData = [
   },
   {
     id: 6,
-    avatar: "https://randomuser.me/api/portraits/men/6.jpg",
-    name: "Richard Wilson",
+    avatar: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "Linda Wilson",
     courseCompletion: 75,
     feeStatus: "pending",
     courseDuration: "6 Months",
@@ -73,8 +74,8 @@ const studentsData = [
   },
   {
     id: 8,
-    avatar: "https://randomuser.me/api/portraits/men/8.jpg",
-    name: "Joseph Taylor",
+    avatar: "https://randomuser.me/api/portraits/women/8.jpg",
+    name: "Olivia Taylor",
     courseCompletion: 65,
     feeStatus: "pending",
     courseDuration: "2 Years",
@@ -91,8 +92,8 @@ const studentsData = [
   },
   {
     id: 10,
-    avatar: "https://randomuser.me/api/portraits/men/10.jpg",
-    name: "Daniel Thomas",
+    avatar: "https://randomuser.me/api/portraits/women/10.jpg",
+    name: "Isabella Thomas",
     courseCompletion: 80,
     feeStatus: "pending",
     courseDuration: "1 Year",
@@ -109,8 +110,8 @@ const studentsData = [
   },
   {
     id: 12,
-    avatar: "https://randomuser.me/api/portraits/men/12.jpg",
-    name: "Anthony White",
+    avatar: "https://randomuser.me/api/portraits/women/12.jpg",
+    name: "Sophia White",
     courseCompletion: 85,
     feeStatus: "pending",
     courseDuration: "6 Months",
@@ -127,8 +128,8 @@ const studentsData = [
   },
   {
     id: 14,
-    avatar: "https://randomuser.me/api/portraits/men/14.jpg",
-    name: "Andrew Martin",
+    avatar: "https://randomuser.me/api/portraits/women/14.jpg",
+    name: "Emma Martin",
     courseCompletion: 95,
     feeStatus: "pending",
     courseDuration: "3 Months",
@@ -145,8 +146,8 @@ const studentsData = [
   },
   {
     id: 16,
-    avatar: "https://randomuser.me/api/portraits/men/16.jpg",
-    name: "Ryan Garcia",
+    avatar: "https://randomuser.me/api/portraits/women/16.jpg",
+    name: "Ava Garcia",
     courseCompletion: 75,
     feeStatus: "pending",
     courseDuration: "6 Months",
@@ -163,8 +164,8 @@ const studentsData = [
   },
   {
     id: 18,
-    avatar: "https://randomuser.me/api/portraits/men/18.jpg",
-    name: "Jacob Robinson",
+    avatar: "https://randomuser.me/api/portraits/women/18.jpg",
+    name: "Mia Robinson",
     courseCompletion: 50,
     feeStatus: "pending",
     courseDuration: "4 Months",
@@ -181,8 +182,8 @@ const studentsData = [
   },
   {
     id: 20,
-    avatar: "https://randomuser.me/api/portraits/men/20.jpg",
-    name: "William Rodriguez",
+    avatar: "https://randomuser.me/api/portraits/women/20.jpg",
+    name: "Lily Rodriguez",
     courseCompletion: 90,
     feeStatus: "pending",
     courseDuration: "1 Year",
@@ -199,8 +200,8 @@ const studentsData = [
   },
   {
     id: 22,
-    avatar: "https://randomuser.me/api/portraits/men/22.jpg",
-    name: "John Walker",
+    avatar: "https://randomuser.me/api/portraits/women/22.jpg",
+    name: "Avery Walker",
     courseCompletion: 70,
     feeStatus: "pending",
     courseDuration: "3 Months",
@@ -217,8 +218,8 @@ const studentsData = [
   },
   {
     id: 24,
-    avatar: "https://randomuser.me/api/portraits/men/24.jpg",
-    name: "Elijah Allen",
+    avatar: "https://randomuser.me/api/portraits/women/24.jpg",
+    name: "Chloe Allen",
     courseCompletion: 90,
     feeStatus: "pending",
     courseDuration: "8 Months",
@@ -235,8 +236,8 @@ const studentsData = [
   },
   {
     id: 26,
-    avatar: "https://randomuser.me/api/portraits/men/26.jpg",
-    name: "Logan Hernandez",
+    avatar: "https://randomuser.me/api/portraits/women/26.jpg",
+    name: "Ella Hernandez",
     courseCompletion: 75,
     feeStatus: "pending",
     courseDuration: "1 Year",
@@ -253,7 +254,7 @@ const studentsData = [
   },
   {
     id: 28,
-    avatar: "https://randomuser.me/api/portraits/men/28.jpg",
+    avatar: "https://randomuser.me/api/portraits/women/28.jpg",
     name: "Henry Wright",
     courseCompletion: 85,
     feeStatus: "pending",
@@ -271,8 +272,8 @@ const studentsData = [
   },
   {
     id: 30,
-    avatar: "https://randomuser.me/api/portraits/men/30.jpg",
-    name: "James White",
+    avatar: "https://randomuser.me/api/portraits/women/30.jpg",
+    name: "Grace White",
     courseCompletion: 90,
     feeStatus: "pending",
     courseDuration: "1 Year",
