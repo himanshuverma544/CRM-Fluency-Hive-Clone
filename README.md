@@ -12,4 +12,4 @@
 - Vite
 
 # Design Inspiration
-- https://mui.com/store/previews/minimal-dashboard-free/
+- <a href="https://mui.com/store/previews/minimal-dashboard-free/" target="_blank">Free Design by MUI</a>
