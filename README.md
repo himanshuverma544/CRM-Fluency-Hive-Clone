@@ -1,6 +1,3 @@
-# Client
-- Kiran Chand
-
 # Tech Stack
 - React
 - Redux
