@@ -24,7 +24,6 @@ export default function Sidebar({ isOpen, setIsOpen, sidebarRef }) {
         overlay-black
         transition-opacity duration-300
         ${isOpen ? "opacity-100" : "opacity-0 pointer-events-none"}
-        
       `}
     >
       <div
@@ -67,6 +66,7 @@ export default function Sidebar({ isOpen, setIsOpen, sidebarRef }) {
             ))}
           </ul>
         </nav>
+		
       </div>
     </aside>
   );
